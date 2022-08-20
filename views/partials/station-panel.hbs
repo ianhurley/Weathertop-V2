@@ -1,10 +1,9 @@
 
 <div class="ui five doubling inverted cards">
-  {{> card title= name}}
-  {{> card title= 'Weather' valueA= weather}}
-  {{> card title= 'Temp'valueA=tempC abrA=' C' valueB= tempF abrB=' F'}}
-  {{> card title= 'Wind'valueA=beaufort abrA=' bft'}}
-  {{> card title= 'Pressure' valueA=pressure abrA=' hPa'}}
+  {{> card title= station.name}}
+  {{> card title= 'Weather' valueA= station.weather}}
+  {{> card title= 'Temp'valueA=station.tempC abrA=' C' valueB= station.tempF abrB=' F'}}
+  {{> card title= 'Wind'valueA=station.beaufort abrA=' bft' valueB=station.compass valueC= 'Feels like' valueD=station.windChillFixed}}
+  {{> card title= 'Pressure' valueA=station.pressure abrA=' hPa'}}
   
 </div>
-

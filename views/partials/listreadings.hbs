@@ -1,22 +1,32 @@
-<table class="ui table">
+{{> station-panel}}
+
+<table class="ui celled table">
   <thead>
     <tr>
-      <th>Song</th>
-      <th>Artist</th>
-      <th>Duration</th>
+      <th>Code</th>
+      <th>Temp</th>
+      <th>Wind Speed</th>
+      <th>Wind Direction</th>
+      <th>Pressure</th>
     </tr>
   </thead>
   <tbody>
-    {{#each playlist.songs}}
+    {{#each station.readings}}
       <tr>
         <td>
-          {{title}}
+          {{code}}
         </td>
         <td>
-          {{artist}}
+          {{temperature}}
         </td>
         <td>
-          {{duration}}
+          {{windSpeed}}
+        </td>
+        <td>
+          {{windDirection}}
+        </td>
+        <td>
+          {{pressure}}
         </td>
       </tr>
     {{/each}}
