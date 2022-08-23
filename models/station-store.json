@@ -1,56 +1,222 @@
 {
   "stationCollection": [
     {
-      "id": "01",
-      "name": "Tramore",
+      "id": "16d84600-22b9-11ed-9472-437062df626d",
+      "userid": "d6827200-2165-11ed-95a9-2958f3990f16",
+      "name": "Dublin",
+      "latitude": "45.45",
+      "longitude": "56.56",
       "readings": [
         {
-          "id": "02",
-          "code": 800,
-          "temperature": 0.5,
-          "windSpeed": 3.5,
-          "pressure": 1002,
-          "windDirection": 90
+          "id": "23ce2500-22b9-11ed-9472-437062df626d",
+          "code": "400",
+          "temperature": "34",
+          "windSpeed": "55",
+          "windDirection": "77",
+          "pressure": "1009"
         },
         {
-          "id": "03",
-          "code": 600,
-          "temperature": 6,
-          "windSpeed": 2,
-          "pressure": 1004,
-          "windDirection": 96
+          "id": "25114170-22bb-11ed-a35c-6b70c37234de",
+          "code": "700",
+          "temperature": "",
+          "windSpeed": "",
+          "windDirection": "",
+          "pressure": ""
         },
         {
-          "id": "04",
-          "code": 700,
-          "temperature": 8,
-          "windSpeed": 1,
-          "pressure": 1005,
-          "windDirection": 101
+          "id": "2cd0bee0-22bb-11ed-bad5-4dd88a5d4675",
+          "code": "700",
+          "temperature": "",
+          "windSpeed": "",
+          "windDirection": "",
+          "pressure": ""
         }
-      ]
+      ],
+      "latestWeather": {
+        "id": "23ce2500-22b9-11ed-9472-437062df626d",
+        "code": "400",
+        "temperature": "34",
+        "windSpeed": "55",
+        "windDirection": "77",
+        "pressure": "1009"
+      },
+      "code": "400",
+      "weather": "Light Showers",
+      "icon": "cloud sun rain",
+      "tempC": "34",
+      "tempF": "93.2",
+      "wind": "55",
+      "beaufort": 7,
+      "direction": "77",
+      "compass": "East North East",
+      "pressure": "1009",
+      "windChill": 38.25917120425747,
+      "windChillFixed": "38.3",
+      "maxTemp": {
+        "id": "23ce2500-22b9-11ed-9472-437062df626d",
+        "code": "400",
+        "temperature": "34",
+        "windSpeed": "55",
+        "windDirection": "77",
+        "pressure": "1009"
+      },
+      "minTemp": {
+        "id": "23ce2500-22b9-11ed-9472-437062df626d",
+        "code": "400",
+        "temperature": "34",
+        "windSpeed": "55",
+        "windDirection": "77",
+        "pressure": "1009"
+      },
+      "maxWind": {
+        "id": "23ce2500-22b9-11ed-9472-437062df626d",
+        "code": "400",
+        "temperature": "34",
+        "windSpeed": "55",
+        "windDirection": "77",
+        "pressure": "1009"
+      },
+      "minWind": {
+        "id": "23ce2500-22b9-11ed-9472-437062df626d",
+        "code": "400",
+        "temperature": "34",
+        "windSpeed": "55",
+        "windDirection": "77",
+        "pressure": "1009"
+      },
+      "maxPressure": {
+        "id": "23ce2500-22b9-11ed-9472-437062df626d",
+        "code": "400",
+        "temperature": "34",
+        "windSpeed": "55",
+        "windDirection": "77",
+        "pressure": "1009"
+      },
+      "minPressure": {
+        "id": "23ce2500-22b9-11ed-9472-437062df626d",
+        "code": "400",
+        "temperature": "34",
+        "windSpeed": "55",
+        "windDirection": "77",
+        "pressure": "1009"
+      }
     },
     {
-      "id": "05",
-      "name": "Dunmore",
+      "id": "37a4e140-22b9-11ed-9472-437062df626d",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Cork",
+      "latitude": "34.00",
+      "longitude": "55.00",
       "readings": [
         {
-          "id": "06",
-          "code": 700,
-          "temperature": 8,
-          "windSpeed": 1,
-          "pressure": 999,
-          "windDirection": 98
+          "id": "4020a9d0-22b9-11ed-9472-437062df626d",
+          "code": "300",
+          "temperature": "1.4",
+          "windSpeed": "2.9",
+          "windDirection": "17",
+          "pressure": "16"
         },
         {
-          "id": "07",
-          "code": 200,
-          "temperature": 0.5,
-          "windSpeed": 3.5,
-          "pressure": 1000,
-          "windDirection": 102
+          "id": "ec289490-22b9-11ed-9472-437062df626d",
+          "code": "800",
+          "temperature": "",
+          "windSpeed": "",
+          "windDirection": "",
+          "pressure": ""
+        },
+        {
+          "id": "e94ad390-22ba-11ed-8f66-3330492a82e5",
+          "code": "200",
+          "temperature": "",
+          "windSpeed": "",
+          "windDirection": "",
+          "pressure": ""
+        },
+        {
+          "id": "ec40bb00-22ba-11ed-8f66-3330492a82e5",
+          "code": "800",
+          "temperature": "",
+          "windSpeed": "",
+          "windDirection": "",
+          "pressure": ""
+        },
+        {
+          "id": "56972c50-22bb-11ed-b73c-719014d86bb1",
+          "code": "100",
+          "temperature": "3.3",
+          "windSpeed": "",
+          "windDirection": "",
+          "pressure": ""
         }
-      ]
+      ],
+      "latestWeather": {
+        "id": "ec40bb00-22ba-11ed-8f66-3330492a82e5",
+        "code": "800",
+        "temperature": "",
+        "windSpeed": "",
+        "windDirection": "",
+        "pressure": ""
+      },
+      "code": "800",
+      "weather": "Thunder",
+      "icon": "bolt",
+      "tempC": "",
+      "tempF": "32.0",
+      "wind": "",
+      "beaufort": 0,
+      "direction": "",
+      "compass": "North",
+      "pressure": "",
+      "windChill": 13.12,
+      "windChillFixed": "13.1",
+      "maxTemp": {
+        "id": "4020a9d0-22b9-11ed-9472-437062df626d",
+        "code": "300",
+        "temperature": "1.4",
+        "windSpeed": "2.9",
+        "windDirection": "17",
+        "pressure": "16"
+      },
+      "minTemp": {
+        "id": "ec289490-22b9-11ed-9472-437062df626d",
+        "code": "800",
+        "temperature": "",
+        "windSpeed": "",
+        "windDirection": "",
+        "pressure": ""
+      },
+      "maxWind": {
+        "id": "4020a9d0-22b9-11ed-9472-437062df626d",
+        "code": "300",
+        "temperature": "1.4",
+        "windSpeed": "2.9",
+        "windDirection": "17",
+        "pressure": "16"
+      },
+      "minWind": {
+        "id": "ec289490-22b9-11ed-9472-437062df626d",
+        "code": "800",
+        "temperature": "",
+        "windSpeed": "",
+        "windDirection": "",
+        "pressure": ""
+      },
+      "maxPressure": {
+        "id": "4020a9d0-22b9-11ed-9472-437062df626d",
+        "code": "300",
+        "temperature": "1.4",
+        "windSpeed": "2.9",
+        "windDirection": "17",
+        "pressure": "16"
+      },
+      "minPressure": {
+        "id": "ec289490-22b9-11ed-9472-437062df626d",
+        "code": "800",
+        "temperature": "",
+        "windSpeed": "",
+        "windDirection": "",
+        "pressure": ""
+      }
     }
   ]
 }

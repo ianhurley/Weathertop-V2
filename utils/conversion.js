@@ -26,6 +26,28 @@ const conversion = {
         return weather;
     },
   
+  codeIcon(code) {
+    let icon = null;
+        if (code == 100) {
+            icon = "sun";
+        } else if (code == 200) {
+            icon = "cloud sun";
+        } else if (code == 300) {
+            icon = "cloud";
+        } else if (code == 400) {
+            icon = "cloud sun rain";
+        } else if (code == 500) {
+            icon = "cloud showers heavy";
+        } else if (code == 600) {
+            icon = "cloud rain";
+        } else if (code == 700) {
+            icon = "snowflake";
+        } else if (code == 800) {
+            icon = "bolt";
+        }
+        return icon;
+    },
+  
   calcFahrenheit(tempC) {
         let tempF = (tempC * 9.0/5.0) + 32;
         return tempF.toFixed(1);
@@ -99,12 +121,7 @@ const conversion = {
             compass = "North";
         }
         return compass;
-  },
-  
-  //calcWindChill(windSpeed){
-    //let windChill = (13.12 + (0.6215 * tempC)) - (11.37 * pow(windSpeed, 0.16)) + ((0.3965 * tempC) * pow(windSpeed, 0.16));
-        //return windChill;
-  //}
+  }
   
   };
 
