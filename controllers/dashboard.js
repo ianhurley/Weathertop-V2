@@ -11,6 +11,9 @@ const dashboard = {
     logger.info('dashboard rendering');
     const loggedInUser = accounts.getCurrentUser(request);
     const stations = stationStore.getUserStations(loggedInUser.id);
+    
+    //stations.sort((a, b) => a.name.localeCompare(b.name));
+    
     for (const station of stations) {
       const latestWeather = stationAnalytics.updateWeather(station);
       station.latestWeather = latestWeather;
@@ -36,6 +39,13 @@ const dashboard = {
     };
     logger.debug("Creating a new Station", newStation);
     stationStore.addStation(newStation);
+    response.redirect('/dashboard');
+  },
+  
+  deleteStation(request, response) {
+    const stationId = request.params.id;
+    logger.debug(`Deleting Station ${stationId}`);
+    stationStore.removeStation(stationId);
     response.redirect('/dashboard');
   },
   

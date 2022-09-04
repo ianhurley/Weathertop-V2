@@ -123,6 +123,15 @@ const stationAnalytics = {
     return minPressure;
   },
   
+  /*tempTrend(station){
+    let trend = 0;
+    if (station.readings.length > 2) {
+      const values = {station.readings.get(station.readings.length -3).temperature, station.readings.get(station.readings.length -2).temperature, station.readings.get(station.readings.length -1).temperature};
+      trend = calcTrend(values);
+    }
+    return trend;
+  },*/
+  
 };
 
 module.exports = stationAnalytics;

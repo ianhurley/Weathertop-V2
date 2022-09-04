@@ -15,6 +15,8 @@ router.get('/logout', accounts.logout);
 router.get("/dashboard", dashboard.index);
 router.get("/about", about.index);
 router.get("/station/:id", station.index);
+router.get('/dashboard/deletestation/:id', dashboard.deleteStation);
+router.get('/station/:id/deletereading/:readingid', station.deleteReading);
 
 router.post('/register', accounts.register);
 router.post('/authenticate', accounts.authenticate);

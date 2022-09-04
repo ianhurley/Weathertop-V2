@@ -1,0 +1,8 @@
+
+<div class="ui five doubling inverted cards">
+  {{> card title= name icon="marker" colour="violet" valueA= 'Lat: ' abrA= latitude valueB= 'Lng: ' abrB= longitude}}
+  {{> card title= 'Weather' icon=icon colour="red" valueA= weather}}
+  {{> card title= 'Temp' icon="temperature low" colour="blue" valueA=tempC abrA=' C' valueB= tempF abrB=' F' valueC= 'Max: ' abrC=maxTemp.temperature valueD= 'Min: ' abrD=minTemp.temperature}}
+  {{> card title= 'Wind' icon="wind" colour="green" valueA=beaufort abrA=' bft' valueB=compass valueC= 'Feels like' valueD=windChillFixed valueE= 'Max: ' abrE=maxWind.windSpeed valueF='Min: ' abrF=minWind.windSpeed}}
+  {{> card title= 'Pressure' icon="centos" colour="orange" valueA=pressure abrA=' hPa' valueC= 'Max: ' abrC=maxPressure.pressure valueD= 'Min: ' abrD=minPressure.pressure}}
+</div>

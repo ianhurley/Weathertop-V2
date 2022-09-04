@@ -102,121 +102,216 @@
       }
     },
     {
-      "id": "37a4e140-22b9-11ed-9472-437062df626d",
+      "id": "918adbb0-22cd-11ed-a652-cd45de11028c",
       "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "name": "Cork",
-      "latitude": "34.00",
-      "longitude": "55.00",
+      "name": "Dunmore",
+      "latitude": "52.14",
+      "longitude": "-6.99",
       "readings": [
         {
-          "id": "4020a9d0-22b9-11ed-9472-437062df626d",
-          "code": "300",
-          "temperature": "1.4",
-          "windSpeed": "2.9",
-          "windDirection": "17",
-          "pressure": "16"
+          "id": "43ac8550-22dd-11ed-b56b-15e0fc4d6063",
+          "timestamp": "Tue Aug 23 2022 12:15:23 GMT+0000 (Coordinated Universal Time)",
+          "code": "700",
+          "temperature": "8.0",
+          "windSpeed": "1",
+          "windDirection": "90",
+          "pressure": "1000"
         },
         {
-          "id": "ec289490-22b9-11ed-9472-437062df626d",
-          "code": "800",
-          "temperature": "",
-          "windSpeed": "",
-          "windDirection": "",
-          "pressure": ""
-        },
-        {
-          "id": "e94ad390-22ba-11ed-8f66-3330492a82e5",
+          "id": "54f51ca0-22dd-11ed-b56b-15e0fc4d6063",
+          "timestamp": "Tue Aug 23 2022 12:15:52 GMT+0000 (Coordinated Universal Time)",
           "code": "200",
-          "temperature": "",
-          "windSpeed": "",
-          "windDirection": "",
-          "pressure": ""
-        },
-        {
-          "id": "ec40bb00-22ba-11ed-8f66-3330492a82e5",
-          "code": "800",
-          "temperature": "",
-          "windSpeed": "",
-          "windDirection": "",
-          "pressure": ""
-        },
-        {
-          "id": "56972c50-22bb-11ed-b73c-719014d86bb1",
-          "code": "100",
-          "temperature": "3.3",
-          "windSpeed": "",
-          "windDirection": "",
-          "pressure": ""
+          "temperature": "0.5",
+          "windSpeed": "3.5",
+          "windDirection": "120",
+          "pressure": "999"
         }
       ],
       "latestWeather": {
-        "id": "ec40bb00-22ba-11ed-8f66-3330492a82e5",
-        "code": "800",
-        "temperature": "",
-        "windSpeed": "",
-        "windDirection": "",
-        "pressure": ""
+        "id": "54f51ca0-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:15:52 GMT+0000 (Coordinated Universal Time)",
+        "code": "200",
+        "temperature": "0.5",
+        "windSpeed": "3.5",
+        "windDirection": "120",
+        "pressure": "999"
       },
-      "code": "800",
-      "weather": "Thunder",
-      "icon": "bolt",
-      "tempC": "",
-      "tempF": "32.0",
-      "wind": "",
-      "beaufort": 0,
-      "direction": "",
-      "compass": "North",
-      "pressure": "",
-      "windChill": 13.12,
-      "windChillFixed": "13.1",
+      "code": "200",
+      "weather": "Partial Clouds",
+      "icon": "cloud sun",
+      "tempC": "0.5",
+      "tempF": "32.9",
+      "wind": "3.5",
+      "beaufort": 1,
+      "direction": "120",
+      "compass": "East South East",
+      "pressure": "999",
+      "windChill": -0.22048980101855173,
+      "windChillFixed": "-0.2",
       "maxTemp": {
-        "id": "4020a9d0-22b9-11ed-9472-437062df626d",
-        "code": "300",
-        "temperature": "1.4",
-        "windSpeed": "2.9",
-        "windDirection": "17",
-        "pressure": "16"
+        "id": "43ac8550-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:15:23 GMT+0000 (Coordinated Universal Time)",
+        "code": "700",
+        "temperature": "8.0",
+        "windSpeed": "1",
+        "windDirection": "90",
+        "pressure": "1000"
       },
       "minTemp": {
-        "id": "ec289490-22b9-11ed-9472-437062df626d",
-        "code": "800",
-        "temperature": "",
-        "windSpeed": "",
-        "windDirection": "",
-        "pressure": ""
+        "id": "54f51ca0-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:15:52 GMT+0000 (Coordinated Universal Time)",
+        "code": "200",
+        "temperature": "0.5",
+        "windSpeed": "3.5",
+        "windDirection": "120",
+        "pressure": "999"
       },
       "maxWind": {
-        "id": "4020a9d0-22b9-11ed-9472-437062df626d",
-        "code": "300",
-        "temperature": "1.4",
-        "windSpeed": "2.9",
-        "windDirection": "17",
-        "pressure": "16"
+        "id": "54f51ca0-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:15:52 GMT+0000 (Coordinated Universal Time)",
+        "code": "200",
+        "temperature": "0.5",
+        "windSpeed": "3.5",
+        "windDirection": "120",
+        "pressure": "999"
       },
       "minWind": {
-        "id": "ec289490-22b9-11ed-9472-437062df626d",
-        "code": "800",
-        "temperature": "",
-        "windSpeed": "",
-        "windDirection": "",
-        "pressure": ""
+        "id": "43ac8550-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:15:23 GMT+0000 (Coordinated Universal Time)",
+        "code": "700",
+        "temperature": "8.0",
+        "windSpeed": "1",
+        "windDirection": "90",
+        "pressure": "1000"
       },
       "maxPressure": {
-        "id": "4020a9d0-22b9-11ed-9472-437062df626d",
-        "code": "300",
-        "temperature": "1.4",
-        "windSpeed": "2.9",
-        "windDirection": "17",
-        "pressure": "16"
+        "id": "54f51ca0-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:15:52 GMT+0000 (Coordinated Universal Time)",
+        "code": "200",
+        "temperature": "0.5",
+        "windSpeed": "3.5",
+        "windDirection": "120",
+        "pressure": "999"
       },
       "minPressure": {
-        "id": "ec289490-22b9-11ed-9472-437062df626d",
-        "code": "800",
-        "temperature": "",
-        "windSpeed": "",
-        "windDirection": "",
-        "pressure": ""
+        "id": "43ac8550-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:15:23 GMT+0000 (Coordinated Universal Time)",
+        "code": "700",
+        "temperature": "8.0",
+        "windSpeed": "1",
+        "windDirection": "90",
+        "pressure": "1000"
       }
+    },
+    {
+      "id": "a25eb830-22cd-11ed-a652-cd45de11028c",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Tramore",
+      "latitude": "52.16",
+      "longitude": "-7.15",
+      "readings": [
+        {
+          "id": "6da35190-22dd-11ed-b56b-15e0fc4d6063",
+          "timestamp": "Tue Aug 23 2022 12:16:34 GMT+0000 (Coordinated Universal Time)",
+          "code": "800",
+          "temperature": "0.5",
+          "windSpeed": "3.5",
+          "windDirection": "220",
+          "pressure": "1001"
+        },
+        {
+          "id": "7a8fe1c0-22dd-11ed-b56b-15e0fc4d6063",
+          "timestamp": "Tue Aug 23 2022 12:16:55 GMT+0000 (Coordinated Universal Time)",
+          "code": "600",
+          "temperature": "6.0",
+          "windSpeed": "2",
+          "windDirection": "200",
+          "pressure": "1004"
+        }
+      ],
+      "code": "600",
+      "weather": "Rain",
+      "icon": "cloud rain",
+      "tempC": "6.0",
+      "tempF": "42.8",
+      "wind": "2",
+      "beaufort": 1,
+      "direction": "200",
+      "compass": "South South West",
+      "pressure": "1004",
+      "windChill": 6.803471341592671,
+      "windChillFixed": "6.8",
+      "maxTemp": {
+        "id": "7a8fe1c0-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:16:55 GMT+0000 (Coordinated Universal Time)",
+        "code": "600",
+        "temperature": "6.0",
+        "windSpeed": "2",
+        "windDirection": "200",
+        "pressure": "1004"
+      },
+      "minTemp": {
+        "id": "6da35190-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:16:34 GMT+0000 (Coordinated Universal Time)",
+        "code": "800",
+        "temperature": "0.5",
+        "windSpeed": "3.5",
+        "windDirection": "220",
+        "pressure": "1001"
+      },
+      "maxWind": {
+        "id": "6da35190-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:16:34 GMT+0000 (Coordinated Universal Time)",
+        "code": "800",
+        "temperature": "0.5",
+        "windSpeed": "3.5",
+        "windDirection": "220",
+        "pressure": "1001"
+      },
+      "minWind": {
+        "id": "7a8fe1c0-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:16:55 GMT+0000 (Coordinated Universal Time)",
+        "code": "600",
+        "temperature": "6.0",
+        "windSpeed": "2",
+        "windDirection": "200",
+        "pressure": "1004"
+      },
+      "maxPressure": {
+        "id": "7a8fe1c0-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:16:55 GMT+0000 (Coordinated Universal Time)",
+        "code": "600",
+        "temperature": "6.0",
+        "windSpeed": "2",
+        "windDirection": "200",
+        "pressure": "1004"
+      },
+      "minPressure": {
+        "id": "6da35190-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:16:34 GMT+0000 (Coordinated Universal Time)",
+        "code": "800",
+        "temperature": "0.5",
+        "windSpeed": "3.5",
+        "windDirection": "220",
+        "pressure": "1001"
+      },
+      "latestWeather": {
+        "id": "7a8fe1c0-22dd-11ed-b56b-15e0fc4d6063",
+        "timestamp": "Tue Aug 23 2022 12:16:55 GMT+0000 (Coordinated Universal Time)",
+        "code": "600",
+        "temperature": "6.0",
+        "windSpeed": "2",
+        "windDirection": "200",
+        "pressure": "1004"
+      }
+    },
+    {
+      "id": "c863fbf0-22ee-11ed-87fa-6d6f085ed183",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Antrim",
+      "latitude": "25",
+      "longitude": "25",
+      "readings": []
     }
   ]
 }
